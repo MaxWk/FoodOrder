@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  01社区
+//
+//  Created by MAX_W on 16/3/23.
+//  Copyright © 2016年 MAX_W. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIBarButtonItem+Extension.h"
+#import "NSString+boundSize.h"
+#import "UIView+Extension_Frame_.h"
+#import "UIImageView+roundness.h"
+#import "LKDBHelper.h"
+#import "MBProgressHUD+UP.h"
+
+#define DocumentsPath [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
+
+#define RandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1]
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/256.0 green:(g)/256.0 blue:(b)/256.0 alpha:1.0]
+
+#define PROFILE_FONT_SIZE 16
+
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
+
+
+#ifdef DEBUG
+#define DEBUGLog(...) NSLog(__VA_ARGS__)
+#else
+#define DEBUGLog(...) nil
+#endif
+
+#endif /* PrefixHeader_pch */

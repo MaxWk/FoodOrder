@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string> 品牌馆</string>
+		<key>icon</key>
+		<string>1(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>早餐</string>
+		<key>icon</key>
+		<string>2(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>校送专送</string>
+		<key>icon</key>
+		<string>3(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>超市便利店</string>
+		<key>icon</key>
+		<string>4(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>超市饮品</string>
+		<key>icon</key>
+		<string>5(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>果蔬生鲜</string>
+		<key>icon</key>
+		<string>6(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>鲜花蛋糕</string>
+		<key>icon</key>
+		<string>7(88-88).png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>节假日</string>
+		<key>icon</key>
+		<string>8(88-88).png</string>
+	</dict>
+</array>
+</plist>
